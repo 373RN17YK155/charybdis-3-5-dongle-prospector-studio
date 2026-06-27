@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: 373RN17YK155
+      url-base: https://github.com/373RN17YK155
     - name: carrefinho
       url-base: https://github.com/carrefinho
   projects:
@@ -17,5 +19,9 @@ manifest:
     - name: prospector-zmk-module
       remote: carrefinho
       revision: feat/new-status-screens
+    - name: zmk-studio-messages
+      remote: 373RN17YK155
+      revision: main
+      path: modules/msgs/zmk-studio-messages
   self:
     path: config
